@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToMyLove</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Just For You !!!</string>
+    
+     <string-array name="planets_array">
+        <item>Home</item>
+        <item>Create</item>
+        <item>Upload</item>
+        <item>Send</item>
+    </string-array>
+
+</resources>
