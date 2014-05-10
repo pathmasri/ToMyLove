@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.support.v4.widget.DrawerLayout;
 import android.view.Menu;
 import android.view.View;
@@ -58,8 +59,11 @@ public class MainActivity extends Activity {
      //   args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
      //   fragment.setArguments(args);
 
-        FragmentManager fragmentManager = getFragmentManager();
+       // FragmentManager fragmentManager = getFragmentManager();
        // fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+    	
+    	Intent intentCreate = new Intent(this, CreateActivity.class);
+    	startActivity(intentCreate);
 
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);
