@@ -26,6 +26,18 @@
             android:name="com.sharpersharp.tomylove.CreateActivity"
             android:label="@string/title_activity_create" >
         </activity>
+        <activity
+            android:name="com.sharpersharp.tomylove.UploadActivity"
+            android:label="@string/title_activity_upload" >
+        </activity>
+        <activity
+            android:name="com.sharpersharp.tomylove.SendActivity"
+            android:label="@string/title_activity_send" >
+        </activity>
+        <activity
+            android:name="com.sharpersharp.tomylove.CustomeGalleryActivity"
+            android:label="@string/title_activity_custome_gallery" >
+        </activity>
     </application>
 
 </manifest>

@@ -53,17 +53,24 @@ public class MainActivity extends Activity {
     }
     
     private void selectItem(int position) {
-        // update the main content by replacing fragments
-       // Fragment fragment = new PlanetFragment();
-     //   Bundle args = new Bundle();
-     //   args.putInt(PlanetFragment.ARG_PLANET_NUMBER, position);
-     //   fragment.setArguments(args);
-
-       // FragmentManager fragmentManager = getFragmentManager();
-       // fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
-    	
-    	Intent intentCreate = new Intent(this, CreateActivity.class);
-    	startActivity(intentCreate);
+   	
+    	  switch(position) {
+    	    case 0:
+    	    	Intent intentCreate = new Intent(this, CreateActivity.class);
+    	    	startActivity(intentCreate);
+    	      
+    	    break;
+    	    case 1:
+    	    	Intent intentUpload = new Intent(this, UploadActivity.class);
+    	    	startActivity(intentUpload);
+    	           break;
+    	    
+    	    case 2:
+    	    	Intent intentSend = new Intent(this, SendActivity.class);
+    	    	startActivity(intentSend);
+    	           break;      
+    	    default:
+    	        }
 
         // update selected item and title, then close the drawer
         mDrawerList.setItemChecked(position, true);

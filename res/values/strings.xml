@@ -6,13 +6,17 @@
     <string name="welcome_message">Just For You !!!</string>
 
     <string-array name="planets_array">
-        <item>Home</item>
         <item>Create</item>
         <item>Upload</item>
         <item>Send</item>
     </string-array>
 
     <string name="title_activity_create">CreateActivity</string>
-    <string name="topic_create_activity">Hello world!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_send">SendActivity</string>
+    <string name="text_btnUploadImage">Upload Images</string>
+    <string name="text_btnUploadSong">Upload Song</string>
+    <string name="title_activity_custome_gallery">CustomeGalleryActivity</string>
 
 </resources>
